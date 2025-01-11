@@ -64,3 +64,15 @@ This project addresses the limitations of traditional CI/CD systems in handling 
    ```bash
    git clone https://github.com/username/project-name.git](https://github.com/wittygirl8/A-Comprehensive-Approach-to-Optimizing-and-Automating-Scalable-Machine-Learning-Workflows.git
    cd A-Comprehensive-Approach-to-Optimizing-and-Automating-Scalable-Machine-Learning-Workflows
+
+
+2. Configure AWS credentials:
+   ```bash
+
+         aws configure
+
+3. Update config.json with your S3 bucket, Step Functions, and SageMaker configurations.
+
+4. Run the pipeline:
+   ```bash
+         python run_pipeline.py
